@@ -1,0 +1,77 @@
+.container{
+    padding: 15px;
+    display: flex;
+}
+.item{
+    background-color:silver;
+    padding:10px 15px;
+    height: 120px;
+    margin:40px;
+    width: 200px;
+    border:2px solid red;
+}
+.item .ani{
+    font-size: 30px;
+    text-align: center;
+
+}
+.item .ani .s1 {
+    width:160px;
+    height:30px;
+    background-color: red;
+    position:relative;
+    top:0px;
+    left:10px;
+    animation-name: my-first-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes my-first-animation{
+    25%{
+        background-color: red;
+    }
+    55%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: magenta;
+    }
+    100%{
+        background-color: green;
+    }
+}
+.item .ani .s3{
+    width:200px;
+    height:30px;
+    background-color: red;
+    position:relative;
+    top:0px;
+    left:10px;
+    animation-name: my-second-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes my-second-animation{
+    25%{
+        background-color: red;
+    }
+    55%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: magenta;
+    }
+    100%{
+        background-color: green;
+    }
+}
+
+
+
+
+
+
+
+
+
+
